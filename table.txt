@@ -1,0 +1,5 @@
+database: zoo_animals
+table name: zoo_animals
+column name: id, type: integer, constraints: primary key
+column name: animal, type: character varying(180), constraints: not null
+column name: animal_count, type: integer, constraints: not null
